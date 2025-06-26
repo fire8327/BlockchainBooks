@@ -292,9 +292,6 @@
   .p-5 {
     padding: calc(var(--spacing) * 5);
   }
-  .px-10 {
-    padding-inline: calc(var(--spacing) * 10);
-  }
   .pt-10 {
     padding-top: calc(var(--spacing) * 10);
   }
@@ -380,8 +377,8 @@
     }
   }
 }
-.text-shadow {
-  text-align: 0px 4px 5px 0px #00000080;
+.text-shadow-custom {
+  text-shadow: 0px 4px 5px #00000080;
 }
 body {
   font-family: "Montserrat", sans-serif;
