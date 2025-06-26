@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,11 +7,91 @@
     <link rel="stylesheet" href="Assets/CSS/main.css">
 </head>
 <body class="bg-[url('../Images/body/bg.png')] bg-cover bg-top bg-no-repeat bg-[#3D2736]">
-    <main class="container mx-auto px-10 flex flex-col gap-[30px] w-full pt-10 pb-[50px]">
+    <main class="container mx-auto flex flex-col gap-[30px] w-full pt-10 pb-[50px] items-center">
         <div class="flex items-center justify-center gap-2.5 md:gap-4">
-            <img src="Assets/Images/icons/ornament.png" alt="ornament.png" class="">
+            <img src="Assets/Images/icons/ornament.png" alt="ornament.png" class="max-md:w-10">
             <p class="text-[#EDC3BB] leading-[100%] text-2xl md:text-4xl text-shadow">Заголовок</p>
-            <img src="Assets/Images/icons/ornament.png" alt="ornament.png" class="">
+            <img src="Assets/Images/icons/ornament.png" alt="ornament.png" class="max-md:w-10 rotate-180">
+        </div>        
+        <div class="grid gap-5 grid-cols-1 md:grid-cols-2 min-[1180px]:grid-cols-3 xl:grid-cols-4 w-fit h-fit">
+            <div class="flex flex-col gap-4 p-5 border-[1.5px] border-[#513748] rounded-[20px] bg-[#271220] items-center w-[304px] h-fit relative overflow-hidden">
+                <img src="Assets/Images/card/bg.png" alt="bg" class="absolute top-0 left-1/2 -translate-x-1/2 w-full z-[0]">
+                <img src="Assets/Images/card/1.png" alt="card" class="relative z-[1]">
+                <div class="flex flex-col gap-2.5 text-white w-full relative z-[1]">
+                    <p class="font-semibold text-lg md:text-[22px] leading-[100%]">Общайтесь с читателями</p>
+                    <p class="font-medium text-sm md:text-lg leading-[100%]">Почаще появляйтесь в нашем 
+                        <a href="#" class="text-[#91D0FF] underline">Telegram чате</a>. 
+                        Прямое общение с вашими читателями и ответы на их вопросы очень лояльно воспринимаются аудиторией.
+                    </p>
+                </div>
+            </div>
+            <div class="flex flex-col gap-4 p-5 border-[1.5px] border-[#513748] rounded-[20px] bg-[#271220] items-center w-[304px] h-fit relative overflow-hidden">
+                <img src="Assets/Images/card/bg.png" alt="bg" class="absolute top-0 left-1/2 -translate-x-1/2 w-full z-[0]">
+                <img src="Assets/Images/card/2.png" alt="card" class="relative z-[1]">
+                <div class="flex flex-col gap-2.5 text-white w-full relative z-[1]">
+                    <p class="font-semibold text-lg md:text-[22px] leading-[100%]">Оформите свои книги</p>
+                    <p class="font-medium text-sm md:text-lg leading-[100%]">Яркие обложки (по 4 штуки для каждой книги), названия, подходящие жанру, и “цепляющие” аннотации - хороший способ привлечь к вашей книге внимание. Если у вас нет возможности сделать обложки самостоятельно, наши дизайнеры помогут вам с этим.</p>
+                </div>
+            </div>
+            <div class="flex flex-col gap-4 p-5 border-[1.5px] border-[#513748] rounded-[20px] bg-[#271220] items-center w-[304px] h-fit relative overflow-hidden">
+                <img src="Assets/Images/card/bg.png" alt="bg" class="absolute top-0 left-1/2 -translate-x-1/2 w-full z-[0]">
+                <img src="Assets/Images/card/3.png" alt="card" class="relative z-[1]">
+                <div class="flex flex-col gap-2.5 text-white w-full relative z-[1]">
+                    <p class="font-semibold text-lg md:text-[22px] leading-[100%]">Публикуйте больше книг</p>
+                    <p class="font-medium text-sm md:text-lg leading-[100%]">Чем больше книг у автора, тем выше заработок. Если автор нравится читателям, они хотят покупать и коллекционировать его книги. Если вы уже публикуетесь на других площадках, начните с самого популярного вашего цикла и постепенно добавляйте остальные.</p>
+                </div>
+            </div>
+            <div class="flex flex-col gap-4 p-5 border-[1.5px] border-[#513748] rounded-[20px] bg-[#271220] items-center w-[304px] h-fit relative overflow-hidden">
+                <img src="Assets/Images/card/bg.png" alt="bg" class="absolute top-0 left-1/2 -translate-x-1/2 w-full z-[0]">
+                <img src="Assets/Images/card/4.png" alt="card" class="relative z-[1]">
+                <div class="flex flex-col gap-2.5 text-white w-full relative z-[1]">
+                    <p class="font-semibold text-lg md:text-[22px] leading-[100%]">Проведите презентацию в метавселенной</p>
+                    <p class="font-medium text-sm md:text-lg leading-[100%]">У нас на постоянной основе работает  
+                        <a href="#" class="text-[#91D0FF] underline">собственная локация в метавселенной Spatial</a>. 
+                        Если вы хотите провести презентацию своей книги или пообщаться со своими читателями, скажите нам, и мы поможем с организацией онлайн-мероприятия.
+                    </p>
+                </div>
+            </div>
+            <div class="flex flex-col gap-4 p-5 border-[1.5px] border-[#513748] rounded-[20px] bg-[#271220] items-center w-[304px] h-fit relative overflow-hidden">
+                <img src="Assets/Images/card/bg.png" alt="bg" class="absolute top-0 left-1/2 -translate-x-1/2 w-full z-[0]">
+                <img src="Assets/Images/card/2.png" alt="card" class="relative z-[1]">
+                <div class="flex flex-col gap-2.5 text-white w-full relative z-[1]">
+                    <p class="font-semibold text-lg md:text-[22px] leading-[100%]">Сделайте первую книгу цикла бесплатной</p>
+                    <p class="font-medium text-sm md:text-lg leading-[100%]">Бесплатные книги сразу доступны читателям в приложении, их не нужно покупать на маркетплейсе. Прочитав и токенизировав первую книгу, читатели познакомятся с вашим творчеством и с большей вероятностью заинтересуются остальными книгами цикла.</p>
+                </div>
+            </div>
+            <div class="flex flex-col gap-4 p-5 border-[1.5px] border-[#513748] rounded-[20px] bg-[#271220] items-center w-[304px] h-fit relative overflow-hidden">
+                <img src="Assets/Images/card/bg.png" alt="bg" class="absolute top-0 left-1/2 -translate-x-1/2 w-full z-[0]">
+                <img src="Assets/Images/card/2.png" alt="card" class="relative z-[1]">
+                <div class="flex flex-col gap-2.5 text-white w-full relative z-[1]">
+                    <p class="font-semibold text-lg md:text-[22px] leading-[100%]">Придумайте бонусы</p>
+                    <p class="font-medium text-sm md:text-lg leading-[100%]">У нас на платформе есть уникальная механика: редкость книг. Вы можете использовать эту опцию и, к примеру, разыграть бумажные версии книг с автографом среди владельцев ваших "легендарных" книг. Если автор награждает владельцев своих блокчейн-книг, их ценность на вторичном рынке растёт, ведь читатели хотят владеть блокчейн-книгами, автор которых дарит “плюшки” преданным фанатам. Мы всегда стараемся идти навстречу авторам и помогаем организовать подобные активности. Кроме того, можно разыграть свои авторские блокчейн-экземпляры (мы высылаем авторам знаковый #0 блокчейн-экземпляр каждой его книги), а также вы можете разыграть среди пользователей литкоины.</p>
+                </div>
+            </div>
+            <div class="flex flex-col gap-4 p-5 border-[1.5px] border-[#513748] rounded-[20px] bg-[#271220] items-center w-[304px] h-fit relative overflow-hidden">
+                <img src="Assets/Images/card/bg.png" alt="bg" class="absolute top-0 left-1/2 -translate-x-1/2 w-full z-[0]">
+                <img src="Assets/Images/card/5.png" alt="card" class="relative z-[1]">
+                <div class="flex flex-col gap-2.5 text-white w-full relative z-[1]">
+                    <p class="font-semibold text-lg md:text-[22px] leading-[100%]">Рассказывайте читателям о нас</p>
+                    <p class="font-medium text-sm md:text-lg leading-[100%]">Поделитесь опытом взаимодействия с нами в социальных сетях. У площадки имеется наработанная база читателей, но собственная аудитория автора - один из важнейших методов продаж. К тому же, у нас одна из самых низких комиссий для авторов на рынке. Приглашая новых читателей, делитесь с ними своей реферальной ссылкой (вы можете найти её в мобильном приложении): таким образом ваша аудитория будет закреплена за вами и проносить вам дополнительный доход в виде литкоинов.</p>
+                </div>
+            </div>
+            <div class="flex flex-col gap-4 p-5 border-[1.5px] border-[#513748] rounded-[20px] bg-[#271220] items-center w-[304px] h-fit relative overflow-hidden">
+                <img src="Assets/Images/card/bg.png" alt="bg" class="absolute top-0 left-1/2 -translate-x-1/2 w-full z-[0]">
+                <img src="Assets/Images/card/6.png" alt="card" class="relative z-[1]">
+                <div class="flex flex-col gap-2.5 text-white w-full relative z-[1]">
+                    <p class="font-semibold text-lg md:text-[22px] leading-[100%]">Выпустите коллекцию фигурок</p>
+                    <p class="font-medium text-sm md:text-lg leading-[100%]">Помимо книг в нашем приложении возможно выпускать фигурки по авторским мирам, шкафы в дизайне авторских вселенных, стикеры и цифровые автографы. Красивые и полезные фигурки привлекают внимание к книгам автора. Можете обратиться к нам и мы поможем вам разработать и выпустить фигурку в приложении.</p>
+                </div>
+            </div>
+            <div class="flex flex-col gap-4 p-5 border-[1.5px] border-[#513748] rounded-[20px] bg-[#271220] items-center w-[304px] h-fit relative overflow-hidden">
+                <img src="Assets/Images/card/bg.png" alt="bg" class="absolute top-0 left-1/2 -translate-x-1/2 w-full z-[0]">
+                <img src="Assets/Images/card/2.png" alt="card" class="relative z-[1]">
+                <div class="flex flex-col gap-2.5 text-white w-full relative z-[1]">
+                    <p class="font-semibold text-lg md:text-[22px] leading-[100%]">Активно ведите блог (в разработке)</p>
+                    <p class="font-medium text-sm md:text-lg leading-[100%]">Через собственный блог на нашей платформе вы сможете общаться с читателями, доносить до них новости об обновлениях, будущих и текущих проектах.</p>
+                </div>
+            </div>
         </div>
     </main>
 </body>
